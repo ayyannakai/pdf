@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="resume.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <img src="logo.png" alt="logo" class="logo">
+            <ul>
+                <img src="logo.png" alt="logo" class="logo2" >
+                <a href="index.html"><P>Home</P></a>
+                <a href="projects.html"><p>Projects</p></a>
+                <a href="contact.html"><P>Contact Me</P></a>
+                
+
+            </ul>
+
+        </nav>
+        <div class="info">
+
+            <iframe src="__myresume__.pdf" width="500" height="800" style="border: none; " class="resume"></iframe>
+            <center><p class="link"><a href="__myresume__.pdf" download>Download PDF</a></p></center>
+            <div class="socials" style="margin-top: 10vh">
+                <a href=""><img src="images/icons8-twitter.gif" alt="" /></a>
+                <a href="https://www.linkedin.com/in/ayyan-nakai-4759852b4/"><img src="images/icons8-linkedin.gif" alt="" /></a>
+                <a href="https://github.com/ayyannakai"><img src="images/icons8-github.gif" alt="" /></a>
+            </div>
+        </div>
+    </div>
+    <script>
+         let logo = document.querySelector('.logo')
+        let logo2 = document.querySelector('.logo2')
+        logo.addEventListener('click',()=>{
+          window.location.href = 'index.html'
+        })
+        logo2.addEventListener('click',()=>{
+          window.location.href = 'index.html'
+        })
+    </script>
+</body>
+</html>
